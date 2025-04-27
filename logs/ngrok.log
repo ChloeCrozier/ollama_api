@@ -1,0 +1,11 @@
+t=2025-04-27T15:38:27-0400 lvl=info msg="no configuration paths supplied"
+t=2025-04-27T15:38:27-0400 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/home/facilities/.config/ngrok/ngrok.yml legacy_path=/home/facilities/.ngrok2/ngrok.yml
+t=2025-04-27T15:38:27-0400 lvl=info msg="using configuration at default config path" path=/home/facilities/.ngrok2/ngrok.yml
+t=2025-04-27T15:38:27-0400 lvl=info msg="open config file" path=/home/facilities/.ngrok2/ngrok.yml err=nil
+t=2025-04-27T15:38:27-0400 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-04-27T15:38:27-0400 lvl=info msg="client session established" obj=tunnels.session
+t=2025-04-27T15:38:27-0400 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-04-27T15:38:27-0400 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8000 url=https://8e5c-2620-103-a000-ca01-868f-69ff-fef5-1c02.ngrok-free.app
+t=2025-04-27T15:39:45-0400 lvl=info msg=start pg=/api/tunnels id=e3a9a190c0a2fd0c
+t=2025-04-27T15:39:45-0400 lvl=info msg=end pg=/api/tunnels id=e3a9a190c0a2fd0c status=200 dur=277.617µs
+t=2025-04-27T15:40:00-0400 lvl=info msg="join connections" obj=join id=deb2c0f898c6 l=127.0.0.1:8000 r=198.21.176.94:62692

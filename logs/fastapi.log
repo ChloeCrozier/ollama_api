@@ -1,0 +1,5 @@
+INFO:     Started server process [4479]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     198.21.176.94:0 - "POST /infer HTTP/1.1" 200 OK
